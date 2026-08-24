@@ -63,6 +63,7 @@
       </button>
       <div class="nav-menu" id="navMenu">
         <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#publications" class="nav-link" data-section="publications">Publications</a>
         <a href="#research" class="nav-link" data-section="research">Research</a>
         <a href="#presentations" class="nav-link" data-section="presentations">Presentations</a>
         <a href="#teaching" class="nav-link" data-section="teaching">Teaching</a>
@@ -168,8 +169,29 @@
       </div>
     </section>
 
+    <!-- ============ PUBLICATIONS ============ -->
+    <section class="section" id="publications">
+      <div class="container">
+        <h2 class="section-title reveal"><span class="section-kicker">Publications</span>Published Work</h2>
+
+        <article class="paper-card reveal">
+          <div class="paper-head"><span class="badge badge-pub">Publication</span></div>
+          <!-- Edit the title, journal, and year below to match your article exactly -->
+          <h4 class="paper-title">Article in the <em>Revue d'économie du développement</em></h4>
+          <p class="paper-authors">Revue d'économie du développement</p>
+          <div class="paper-actions">
+            <a class="btn btn-paper" href="https://shs.cairn.info/publications-de-mira-serhal--908629?lang=fr" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24"><path d="M14 3v2h3.6l-9.8 9.8 1.4 1.4L19 6.4V10h2V3h-7zM5 5h5V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-5h-2v5H5V5z"/></svg>
+              View on Cairn.info
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
     <!-- ============ RESEARCH ============ -->
-    <section class="section" id="research">
+    <section class="section section-tinted" id="research">
       <div class="container">
         <h2 class="section-title reveal"><span class="section-kicker">Research</span>Papers &amp; Projects</h2>
 
@@ -260,14 +282,11 @@
           <div class="timeline-year reveal"><span>2026</span></div>
           <ul class="timeline-list">
             <li class="timeline-item reveal"><span class="tl-when">2026</span><span class="tl-what">3rd Development Economics Workshop, Durham University Business School</span></li>
-        
           </ul>
 
           <div class="timeline-year reveal"><span>2025</span></div>
           <ul class="timeline-list">
-conférence
-
-             <li class="timeline-item reveal"><span class="tl-when">2025</span><span class="tl-what">Summer School in Development Economics, Prato</span></li>
+            <li class="timeline-item reveal"><span class="tl-when">2025</span><span class="tl-what">Summer School in Development Economics, Prato</span></li>
             <li class="timeline-item reveal"><span class="tl-when">2025</span><span class="tl-what">5th International Conference on Development Economics (ICDE), Paris Nanterre University</span></li>
             <li class="timeline-item reveal"><span class="tl-when">2025</span><span class="tl-what">41èmes Journées de la Microéconomie Appliquée (JMA), Poitiers</span></li>
             <li class="timeline-item reveal"><span class="tl-when">2025</span><span class="tl-what">4th Workshop on Gender and Economics, University of Luxembourg</span></li>
@@ -304,12 +323,68 @@ conférence
             <h3 class="teach-inst"><a href="https://www.cyu.fr/" target="_blank" rel="noopener">CY Cergy Paris University</a></h3>
             <h4 class="teach-role">Teaching Assistant</h4>
             <ul class="teach-list">
-              <li>Advanced Econometrics <span class="teach-meta">undergraduate (3rd year), spring 2025–26</span></li
-              <li>Introduction to Econometrics <span class="teach-meta">undergraduate (3rd year), spring 2025–26</span></li>
-              <li>Econometrics <span class="teach-meta">undergraduate (3rd year), fall 2025–26</span></li>
-              <li>Computer Science <span class="teach-meta">undergraduate (3rd year), spring 2024–25</span></li>
-              <li>Microeconomics <span class="teach-meta">undergraduate (1st year), fall 2023–24</span></li>
-              <li>Descriptive Statistics <span class="teach-meta">undergraduate (1st year), spring 2022–23</span></li>
+
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Advanced Econometrics <span class="teach-meta">undergraduate (3rd year), spring 2025–26</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <!-- Edit this description; you can add more <p> lines -->
+                  <p>Recitation sessions covering panel data, instrumental variables, and limited dependent variable models, with applied estimation in Stata. Language of instruction: French.</p>
+                </div>
+              </li>
+
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Introduction to Econometrics <span class="teach-meta">undergraduate (3rd year), spring 2025–26</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Foundations of the linear regression model: ordinary least squares, hypothesis testing, and interpretation of results. Language of instruction: French.</p>
+                </div>
+              </li>
+
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Econometrics <span class="teach-meta">undergraduate (3rd year), fall 2025–26</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Multiple regression analysis and its assumptions, with an emphasis on empirical applications. Language of instruction: French.</p>
+                </div>
+              </li>
+
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Computer Science <span class="teach-meta">undergraduate (3rd year), spring 2024–25</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Introduction to programming and computational tools for economists. Language of instruction: French.</p>
+                </div>
+              </li>
+
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Microeconomics <span class="teach-meta">undergraduate (1st year), fall 2023–24</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Consumer and producer theory, market equilibrium, and welfare. Language of instruction: French.</p>
+                </div>
+              </li>
+
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Descriptive Statistics <span class="teach-meta">undergraduate (1st year), spring 2022–23</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Summary statistics, distributions, and graphical methods for describing economic data. Language of instruction: French.</p>
+                </div>
+              </li>
+
             </ul>
           </div>
 
@@ -317,7 +392,15 @@ conférence
             <h3 class="teach-inst"><a href="https://www.essec.edu/en/" target="_blank" rel="noopener">ESSEC Business School</a></h3>
             <h4 class="teach-role">Teaching Assistant</h4>
             <ul class="teach-list">
-              <li>Microeconomics <span class="teach-meta">Grande École (1st year), spring 2023–24</span></li>
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Microeconomics <span class="teach-meta">Grande École (1st year), spring 2023–24</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Recitation sessions for first-year Grande École students covering core microeconomic theory. Language of instruction: English.</p>
+                </div>
+              </li>
             </ul>
           </div>
 
@@ -325,12 +408,36 @@ conférence
             <h3 class="teach-inst"><a href="https://www.aub.edu.lb/" target="_blank" rel="noopener">American University of Beirut</a></h3>
             <h4 class="teach-role">Assistant Instructor</h4>
             <ul class="teach-list">
-              <li>Microeconomics <span class="teach-meta">undergraduate (1st year), spring 2020–21</span></li>
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Microeconomics <span class="teach-meta">undergraduate (1st year), spring 2020–21</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Led lectures and course sessions in introductory microeconomics as sole instructor. Language of instruction: English.</p>
+                </div>
+              </li>
             </ul>
             <h4 class="teach-role">Teaching Assistant</h4>
             <ul class="teach-list">
-              <li>Applied Econometrics <span class="teach-meta">undergraduate (1st year), spring 2019–20</span></li>
-              <li>Microeconomics <span class="teach-meta">undergraduate (1st year), fall 2019–20</span></li>
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Applied Econometrics <span class="teach-meta">undergraduate (1st year), spring 2019–20</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Recitation and lab sessions on applied econometric methods and empirical analysis. Language of instruction: English.</p>
+                </div>
+              </li>
+              <li class="teach-item">
+                <button class="teach-toggle" aria-expanded="false">
+                  <span class="teach-course">Microeconomics <span class="teach-meta">undergraduate (1st year), fall 2019–20</span></span>
+                  <svg class="icon chevron" viewBox="0 0 24 24"><path d="M12 15.5l-6-6 1.4-1.4 4.6 4.6 4.6-4.6L18 9.5l-6 6z"/></svg>
+                </button>
+                <div class="teach-detail">
+                  <p>Recitation sessions supporting the first-year microeconomics course. Language of instruction: English.</p>
+                </div>
+              </li>
             </ul>
           </div>
 

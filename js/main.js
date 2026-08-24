@@ -93,6 +93,16 @@
     });
   });
 
+  /* ---------- teaching course details ---------- */
+
+  document.querySelectorAll(".teach-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const item = btn.closest(".teach-item");
+      const open = item.classList.toggle("open");
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  });
+
   /* ---------- mobile nav ---------- */
 
   const navToggle = document.getElementById("navToggle");
