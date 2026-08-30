@@ -1,7 +1,7 @@
 # mserhal.github.io
 
 Personal academic website of **Mira Serhal**, served by GitHub Pages at
-**https://mserhal.github.io**.
+**https://miraserhal.github.io**.
 
 Plain HTML/CSS/JS — no build step. Any change pushed to `main` goes live
 automatically within a minute or two.
